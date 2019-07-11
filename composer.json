@@ -1,0 +1,22 @@
+{
+    "name": "b2bmodules/cabinetAllocation",
+    "description": "Cabinet allocation excel document implementation into the crm",
+    "authors": [
+        {
+            "name": "b2bit",
+            "email": "jordan@b2bsmarter.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/database/migrations",
+            "src/models"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "b2bmodules\\cabinetAllocation\\":"packages/b2bmodules/cabinetAllocation/src"
+        }
+    }
+}
